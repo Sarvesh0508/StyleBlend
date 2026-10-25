@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Uploads & temporary storage
+backend/uploads/inputs/*
+backend/uploads/outputs/*
+!backend/uploads/inputs/.gitkeep
+!backend/uploads/outputs/.gitkeep
+
+# IDE & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
